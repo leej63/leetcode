@@ -16,6 +16,7 @@ public class CellsWithOddValuesInAMatrix {
     
     public static int oddCells(int n, int m, int[][] indices) {
         // creating new matrix
+        
         int[][] matrix = new int[n][m];
         
         // adding value of 1 in rows of matrix
