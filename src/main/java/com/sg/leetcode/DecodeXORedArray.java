@@ -11,12 +11,19 @@ package com.sg.leetcode;
  */
 public class DecodeXORedArray {
     public static void main(String[] args) {
-        
+        System.out.println("1 ^ 0 = " + (1 ^ 0));
+        System.out.println("0 ^ 2 = " + (0 ^ 2));
+        System.out.println("2 ^ 1 = " + (2 ^ 1));
     }
     
-//    public static int[] decode(int[] encoded, int first) {
-//        
-//    }
+    public static int[] decode(int[] encoded, int first) {
+        int[] result = new int[encoded.length + 1];
+        result[0] = first;
+        for(int i = 0; i < encoded.length; i++) {
+            result[i + 1] = result[i] ^ encoded[i];
+        }
+        return result; 
+   }
 }
 
 
