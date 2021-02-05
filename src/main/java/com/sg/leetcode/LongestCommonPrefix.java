@@ -26,6 +26,9 @@ public class LongestCommonPrefix {
         }
         
         return strs[0]; // If all characters end up matching, it will return the whole first word.
+        
+        // Time Complexity: O(n^2) - Quadratic
+        // Space Complexity: O(1) - Constant
     }
 }
 
