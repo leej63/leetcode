@@ -25,6 +25,8 @@ public class CountNegativeNumbersInASortedMatrix {
         
         return count;
     }
+    // Time Complexity: O(n^2) - Quadratic 
+    // Space Complexity: O(1) - Constant 
 }
 
 

@@ -36,6 +36,8 @@ public class CountTheNumberOfConsistentStrings {
         }
         return count;
     }
+    // Time Complexity: O(n^2) - Quadratic 
+    // Space Complexity: O(n) - Linear 
     
 }
 

@@ -31,6 +31,8 @@ public class CreateTargetArrayInTheGivenOrder {
         
         return target;
     }
+    // Time Complexity: O(n) - Linear 
+    // Space Complexity: O(n) - Linear
 }
 
 
